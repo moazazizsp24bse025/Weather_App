@@ -30,6 +30,9 @@ imageSelector.src="x.png";
   }else if(weatherKind.innerText==="Clear"){
     imageSelector.src="sun.png";
   }
+  else if(weatherKind.innerText==="Haze"){
+    imageSelector.src="aa.png";
+  }
   else{
     imageSelector.src="";
   }
