@@ -33,6 +33,9 @@ imageSelector.src="x.png";
   else if(weatherKind.innerText==="Haze"){
     imageSelector.src="aa.png";
   }
+  else if(weatherKind.innerText==="Smoke"){
+    imageSelector.src="d.png";
+  }
   else{
     imageSelector.src="";
   }
