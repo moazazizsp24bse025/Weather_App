@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Weather App</title>
+  <link rel="stylesheet" href="weatherApp.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+<div class="app">
+
+  <header>
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="search for city...">
+      <button id="searchBtn"><i data-feather="search"></i></button>
+    </div>
+  </header>
+
+  <div class="date-time" id="dateTime"></div>
+
+  <h1 id="cityName"></h1>
+  <div class="weatherType">
+     <p id="weatherType"></p>
+     <div class="image">
+        
+     </div>
+    
+  </div>
+ 
+
+  <div class="temp">
+    <h2 id="temp"></h2>
+    <div class="details">
+      <p id="feels"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+    </div>
+  </div>
+
+  <div class="sun">
+    <p id="sunrise"></p>
+    <p id="sunset"></p>
+    <p id="high"></p>
+    <p id="low"></p>
+  </div>
+
+</div>
+
+<script src="weatherApp.js"></script>
+<script>feather.replace()</script>
+</body>
+</html>

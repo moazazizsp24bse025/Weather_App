@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background: linear-gradient(160deg, #b35b05, #f0932b);
+  font-family: 'Segoe UI';
+  color: white;
+
+}
+
+.app {
+  width: 420px;
+  margin: auto;
+  padding: 20px;
+}
+
+nav span {
+  margin-right: 15px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.search-box {
+  margin-top: 15px;
+  display: flex;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.search-box button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.date-time {
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+.temp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.temp h2 {
+  font-size: 60px;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.sun {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+img {
+    height: 42px;
+    width: 42px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.weatherType{
+    display: flex;
+    background-color: sandybrown;
+    width: 110px;
+    border-radius: 0.8rem;
+    padding-left: 0.4rem;
+  
+}
